@@ -1,3 +1,3 @@
 # AntoineGuillo55.github.io
 
-Curriculum Vitae en ligne à partir d'un design réalisé sous adobe XD par hesji (www.hesji.fr)
+Curriculum Vitae en ligne à partir d'un design réalisé sous adobe XD par hesji (www.hesji.fr &#9829;)
