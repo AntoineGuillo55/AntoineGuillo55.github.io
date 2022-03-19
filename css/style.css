@@ -134,6 +134,7 @@ h1 {
 	width : 70%;
 	text-align: center;
 	margin: auto;
+	line-height: 1.2em;
 	font-size: 2em;
 	font-weight: 300;
 }
@@ -151,6 +152,12 @@ h1 {
 	width: 15%;
 }
 
+.skills em {
+	display: inline-block;
+	width: 10%;
+	padding-left: 50px;
+}
+
 .skill-barre {
 	width: 100%;
 	height: 20px;
@@ -162,7 +169,7 @@ h1 {
 }
 
 .empty-barre {
-	width: 70%;
+	width: 75%;
 	background-color: rgba(255, 255, 255, 0.10);
 	height: 14px;
 	z-index: 1;
@@ -177,21 +184,18 @@ h1 {
 	height: 14px;
 }
 
-.html {
-	width: 80%;
+.fr {
+	width: 100%;
 }
 
-.css {
+.en {
 	width: 70%;
 }
 
-.php {
+.sp {
 	width: 30%;
 }
 
-.javascript {
-	width: 10%;
-}
 
 /* style section compétence */
 
@@ -228,3 +232,153 @@ h1 {
 	text-align: center;
 	padding-bottom: 30px;
 }
+
+/* Style section cursus  */
+
+#cursus-experience {
+	width: 100%;
+	display: flex;
+	padding: 50px 0 70px 0;
+}
+
+.cursus-left {
+	width : 30%;
+	display: flex;
+	justify-content: center;
+}
+
+#year-selector span {
+	margin: 0 20px 0 20px;
+	font-weight: bold;
+	position: relative;
+	top: 2px;
+}
+
+.cursus-right {
+	width : 70%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.cursus-right article {
+	width : 35%;
+	position: relative;
+}
+
+.cursus-right article img {
+	position: absolute;
+	top: -1em;
+	right: 0;
+}
+
+.cursus-right article h4 {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 50px;
+}
+
+.cursus-right article p {
+	margin-top: 30px;
+	font-weight: 300;
+}
+
+/* Style section contact */
+
+#contact {
+	position: relative;
+}
+
+.contact-top {
+	height: 400px;
+	background: url("../images/jakob-owens-FmlZfeIuntM-unsplash.png");
+}
+
+.contact-top img {
+	margin: auto;
+}
+
+.contact-bottom {
+	height: 350px;
+	position: relative;
+}
+
+.contact-bottom p {
+	position: absolute;
+	font-size: 2em;
+	margin: 90px 30px;
+	word-spacing: 0.5em;
+	font-weight: 400;
+	z-index: 20;
+	right: 30px;
+}
+
+.contact-bottom a {
+	color: black;
+}
+
+#bonhomme,
+#black-line,
+#white-line
+{
+	position: absolute;
+}
+
+#bonhomme {
+	top: 0;
+	left: calc(50% - 333px / 2);
+	z-index: 4;
+}
+
+#black-line {
+	top: 60px;
+	z-index: 2;
+}
+
+#white-line {
+	bottom: 170px;
+	z-index: 3;
+}
+
+#contact_me {
+	position: absolute;
+	font-size: 200px;
+	font-weight: 300;
+	color: white;
+	-webkit-text-stroke: 1px #E4E4E4;
+	text-transform: uppercase;
+	z-index: 1;
+	top: 15%;
+	letter-spacing: 0.1em;
+}
+
+/* Style footer */
+
+footer{
+	height: 230px;
+	background : linear-gradient(113deg, #172027, #001A2E);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+#lien_portfolio {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 15px 10px;
+}
+
+footer img {
+	margin: 10px;
+}
+
+#chat {
+	position: relative;
+	top : 15px;
+}
+
+
